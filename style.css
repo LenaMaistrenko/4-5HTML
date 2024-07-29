@@ -1,0 +1,134 @@
+body{ 
+
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ h2{
+    text-align: center;
+ }
+ 
+section{
+    margin: 10px 20px 10px 20px;
+}
+
+ ol{
+    background-color: rgb(183, 161, 204);
+    margin: 20px;
+    padding: 20px;
+ }
+
+ li {
+    background-color: rgb(155, 104, 202);
+    /* border: 1px solid gold; */
+    padding: 10px;
+    margin: 10px;
+ }
+
+ p{
+    display: inline-block;
+    background-color: rgb(12, 94, 216);
+    padding: 7px;
+ }
+
+ .list {
+    font-size: 28px;
+    color: black;
+    list-style: none;
+ }
+
+ .list-item{
+     padding: 20px;
+     margin: 0;
+ }
+
+
+ .list-item::before{
+    content: url(./free-icon-font-square-3916941.png);
+  
+    margin-right: 10px;
+
+  }
+  .list-item::after{
+    margin-left:30px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: url(./crossregular_106296.png)
+  }
+.list-item:nth-child(odd){
+    background-color: #e0f7fa;
+   } 
+.list-item:nth-child(even){
+    background-color: #b2ebf2;
+   } 
+.list-item.complete {
+    background-color: gray;
+    text-decoration: line-through;
+   }
+.list-item:hover {
+    background-color: blue;
+}
+.list-item.complete::before{
+    content: url(./free-icon-font-checkbox-3917090.png);
+}   
+
+.dictionary {
+    margin-left: 70px;
+}
+.transcription {
+    color: gray;
+    font-size: 26px;
+    background-color: white;
+  
+}
+.list-dictionary {
+    background-color: white;
+   
+}
+.item-dictionary{
+    background-color: white;
+    border:none;
+    padding: 0;
+    margin: 0;
+   
+
+}
+dl{
+    margin-left: 50px;
+ }
+dt{
+    font-style: italic;
+
+}
+ dd{
+    margin-left: 50px;
+ }
+.text-normal{
+
+    color:black;
+    background-color: white;
+    margin:0;
+}
+.text-gray{
+
+    color: gray;
+    background-color: white;
+    margin:0;
+}
+
+.text-blue{
+
+    color:blue;
+    background-color: white;
+    margin:0;
+}
+
+.text-dark-gray {
+
+    color:darkgray;
+    background-color: white;
+    margin:0;
+}
